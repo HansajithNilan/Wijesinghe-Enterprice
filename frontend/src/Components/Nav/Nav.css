@@ -1,0 +1,46 @@
+.nav{
+    margin-top:4%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+    background-color:#10403B;
+    padding: 20px 20px ;
+    height: 30px;
+    width: 1474px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06) ;
+    
+    
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar li{
+    list-style: none;
+    padding: 0 30px;
+    position: relative;
+}
+.navbar li a {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+    color: aliceblue;
+    transition: 0.3s ease-in-out;
+}
+.navbar li a:hover,
+.navbar li a.active{/*pata wela thiyenne */
+    color: aqua;
+    
+}
+.navbar li a:hover:after,/*click krnkot underline wdinw*/
+.navbar li a.active:after{
+    content :"";
+    width : 30%;
+    height: 2px;
+    background:aqua ;
+    position: absolute;
+    bottom:-4px;
+    left :40px;
+
+}

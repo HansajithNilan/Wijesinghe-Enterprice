@@ -1,0 +1,43 @@
+*{margin: 0;padding: 0;}
+.clearfix{overflow: auto;}
+*{text-decoration: none;}
+.addwrapper{
+   
+    width: 1200px;
+   
+    
+    
+}
+.addetails{
+    
+    margin: 0px 130px;
+    width: 1250px;
+    margin-top: 80px;
+    margin-bottom: 70px;
+    
+    
+   
+}
+.image img {
+    width: 550px;
+    margin-left: 40px;
+}
+.details h4{
+    
+    margin-top: 30px;
+    font-size: 15px;
+    
+}
+.details input{
+    width: 150px;
+    height: 20px;
+}
+.details button {
+    float: right;
+    margin-right: 140px;
+    height: 30px;
+    width: 100px;
+}
+.details{
+    margin-left: 70px;
+}

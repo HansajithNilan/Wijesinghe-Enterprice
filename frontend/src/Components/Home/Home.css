@@ -1,0 +1,137 @@
+*{margin: 0;padding: 0;}
+.clearfix{overflow: auto;}
+*{text-decoration: none;}
+
+.webpage{
+    width: 1500px;
+}
+.intro{
+    padding: 0px 90px;
+    margin-top: 50px;
+    width: 1320px;
+    margin-bottom: 50px;
+}
+.image{
+    float: left;
+    width: 650px;
+    
+    
+    
+    
+}
+
+
+
+
+
+
+.image img{
+    height: 400px;
+    width: 650px;
+   
+}
+.shop-name{
+    margin-top: 100px;
+    float: right;
+    width: 670px;
+}
+.shop-name h1{
+    
+    margin-left: 140px;
+}
+.shop-name p{
+    padding: 20px 40px;
+}
+.shop-name  button {
+    padding: 10px 30px;
+    margin-left: 70px;
+    border: none;
+    background-color: #127369;
+}
+.h1{
+    padding: 0px 20px;
+}
+.top-catogery{
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    height: 500px;
+   
+    
+    
+    
+    background-color: #8AA6A3;
+}
+
+/* Base styles for the Category class */
+.Category {
+    float: left;
+    padding: 30px 0px;
+    margin-top: 20px;
+    margin-left: 40px;
+    display: inline-block;
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+    background-color: #46706c;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Animation on hover */
+.Category:hover {
+    transform: scale(1.05); /* Slightly increase the size */
+    background-color: #5a8f85; /* Change the background color */
+}
+
+
+.Category h2{
+    
+    padding: 20px 0px;
+    margin-left: 70px;
+
+}
+
+
+.Category img{
+    width: 220px;
+    padding: 30px;
+    height: 160px;
+}
+.Category h4{
+    font-weight: normal;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.text {
+    
+    margin-top: 120px;
+    margin-left: 130px;
+    width: 500px;
+
+}
+.text p{
+    float: left;
+    margin-top: 100px;
+    font-size: 20px;
+    font-weight: normal;
+}
+.image2{
+    padding: 5px 80px;
+    float: right;
+}
+.Thanks{
+    margin-top: 40px;
+    margin-left: 250px;
+    width: 1000px;
+    background-color: #8AA6A3;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+.Thanks h2{
+
+    padding: 20px 250px;
+    font-weight: bold;
+    align-items: center;
+}
